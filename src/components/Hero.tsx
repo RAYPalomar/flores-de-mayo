@@ -1,5 +1,6 @@
 import React from 'react';
 import { Flower2, Play, Heart, Sparkles, Sprout, ArrowRight } from 'lucide-react';
+import heroBgImg from '../assets/images/flores_reference_hero_1790426574384.jpg';
 
 interface HeroProps {
   onOpenPresentation: () => void;
@@ -11,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPresentation }) => {
       {/* Background Image: Golden luminous sunrise landscape with blooming foreground flowers */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/flores_reference_hero_1790426574384.jpg"
+          src={heroBgImg}
           alt="Flores de Mayo Philippine Pastoral Heritage"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center filter brightness-[1.02] contrast-[1.02]"

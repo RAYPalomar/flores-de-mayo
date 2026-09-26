@@ -1,3 +1,8 @@
+import heroProcessionImg from '../assets/images/flores_hero_procession_1790426146195.jpg';
+import flowerOfferingImg from '../assets/images/flores_flower_offering_1790426167705.jpg';
+import santacruzanArchImg from '../assets/images/flores_santacruzan_arch_1790426183002.jpg';
+import sagalasPortraitImg from '../assets/images/flores_sagalas_portrait_1790426198790.jpg';
+
 export interface GalleryItem {
   id: string;
   title: string;
@@ -230,7 +235,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Ang Maringal na Santacruzan',
     subtitle: 'The Majestic Twilight Procession of Reyna Elena',
     category: 'procession',
-    image: '/src/assets/images/flores_hero_procession_1790426146195.jpg',
+    image: heroProcessionImg,
     description: 'Reyna Elena glides under an illuminated floral arko dressed in an ivory-and-gold terno with iconic butterfly sleeves, accompanied by young Prince Constantine holding the Holy Cross.',
     historicalContext: 'Commemorates the 4th-century pilgrimage of Saint Helena to Jerusalem in search of the True Cross of Jesus Christ.',
     keyFact: 'Reyna Elena is traditionally the most coveted and final role in the Santacruzan procession.',
@@ -241,7 +246,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Alay kay Maria (Flower Offering)',
     subtitle: 'Daily Children’s Devotion at the Colonial Altar',
     category: 'offering',
-    image: '/src/assets/images/flores_flower_offering_1790426167705.jpg',
+    image: flowerOfferingImg,
     description: 'Devout Filipino children dressed in white and pastel lace carry baskets of freshly plucked sampaguita, kalachuchi, and rosal blossoms to lay before the Virgin Mary.',
     historicalContext: 'Stemming from Father Mariano Sevilla’s 1865 devotional booklet published in Bulacan, adapting European May devotions into a warm community rite.',
     keyFact: 'Offerings are accompanied by daily catechism lessons and traditional hymn chanting like "Dios Te Salve".',
@@ -252,7 +257,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Sining ng Katutubong Arko',
     subtitle: 'The Ephemeral Architecture of Bamboo & Sampaguita',
     category: 'arch',
-    image: '/src/assets/images/flores_santacruzan_arch_1790426183002.jpg',
+    image: santacruzanArchImg,
     description: 'Local artisans spend days bending, carving, and weaving native bamboo poles, draping them with fragrant sampaguita garlands, palm fronds, and battery-lit fairy lamps.',
     historicalContext: 'A uniquely Filipino folk-art tradition blending pre-colonial bamboo craftsmanship with Hispanic festival pageantry.',
     keyFact: 'Each Sagala is escorted beneath her own individual mobile floral arch carried by two escorts.',
@@ -263,7 +268,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Korte ng mga Sagala',
     subtitle: 'Marian Titles & Theological Virtues in Filipiniana',
     category: 'sagalas',
-    image: '/src/assets/images/flores_sagalas_portrait_1790426198790.jpg',
+    image: sagalasPortraitImg,
     description: 'Filipinas adorned in bespoke ternos and Maria Clara dresses carry biblical and theological emblems: the anchor for hope, the chalice for faith, and the open heart for charity.',
     historicalContext: 'The procession is a living theological catechism designed to visually teach parish communities the Litany of Loreto and Christian virtues.',
     keyFact: 'Over 30 distinct historical and allegorical roles can be featured in a full grand Santacruzan.',

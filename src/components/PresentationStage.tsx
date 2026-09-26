@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight, Maximize, FileText, Sparkles, BookOpen } from 'lucide-react';
 import { GALLERY_ITEMS, HISTORICAL_FACTS, SAGALAS_ROSTER } from '../data/floresData';
+import heroProcessionImg from '../assets/images/flores_hero_procession_1790426146195.jpg';
+import flowerOfferingImg from '../assets/images/flores_flower_offering_1790426167705.jpg';
+import santacruzanArchImg from '../assets/images/flores_santacruzan_arch_1790426183002.jpg';
+import sagalasPortraitImg from '../assets/images/flores_sagalas_portrait_1790426198790.jpg';
 
 interface PresentationStageProps {
   isOpen: boolean;
@@ -24,7 +28,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'Flores de Mayo & Santacruzan',
     subtitle: 'Philippine Religious Folk Tradition & Cultural Heritage',
     category: 'Introduction',
-    image: '/src/assets/images/flores_hero_procession_1790426146195.jpg',
+    image: heroProcessionImg,
     content: [
       'Flores de Mayo ("Flowers of May") is a month-long Catholic devotion honoring the Blessed Virgin Mary.',
       'Santacruzan is the climactic evening pageant held at the end of May celebrating Queen Helena\'s discovery of the True Cross.',
@@ -38,7 +42,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'Historical Origin & Padre Mariano Sevilla',
     subtitle: 'Bulakan, Bulacan & The 1865 Devotional Handbook',
     category: 'History',
-    image: '/src/assets/images/flores_flower_offering_1790426167705.jpg',
+    image: flowerOfferingImg,
     content: [
       'In 1854, Pope Pius IX proclaimed the Dogma of the Immaculate Conception, initiating worldwide May devotions.',
       'In 1865, Filipino secular priest Padre Mariano Sevilla published "Flores de Mayo o Mariquít na Bulaclac" in Bulakan.',
@@ -52,7 +56,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'The Legend of the True Cross',
     subtitle: 'Saint Helena (Reyna Elena) in 326 AD Jerusalem',
     category: 'Christian Tradition',
-    image: '/src/assets/images/flores_sagalas_portrait_1790426198790.jpg',
+    image: sagalasPortraitImg,
     content: [
       'Saint Helena, mother of Emperor Constantine the Great, made a historic pilgrimage to Mount Calvary.',
       'Workers excavated three wooden crosses at the site of the crucifixion.',
@@ -66,7 +70,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'Alay kay Maria & The Sampaguita',
     subtitle: 'Daily Children’s Offering & Botanical Symbolism',
     category: 'Tradition',
-    image: '/src/assets/images/flores_flower_offering_1790426167705.jpg',
+    image: flowerOfferingImg,
     content: [
       'Every afternoon of May, children dressed in white gather in the church to offer fresh flowers at the altar.',
       'Sampaguita (Jasminum sambac), the national flower, represents purity, humility, and filial devotion.',
@@ -80,7 +84,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'The Bamboo Arko & Ephemeral Architecture',
     subtitle: 'Native Craftsmanship, Palm Weaving & Illumination',
     category: 'Folk Art',
-    image: '/src/assets/images/flores_santacruzan_arch_1790426183002.jpg',
+    image: santacruzanArchImg,
     content: [
       'Mobile arches (arko) are constructed from native bamboo poles bent into graceful parabolic curves.',
       'Decorated with sampaguita strings, yellow marigolds, coconut fronds, and battery-lit warm fairy lights.',
@@ -108,7 +112,7 @@ const PRESENTATION_SLIDES: Slide[] = [
     title: 'Preserving Cultural Heritage Today',
     subtitle: 'Living Tradition Across the Philippines & Worldwide',
     category: 'Contemporary Impact',
-    image: '/src/assets/images/flores_hero_procession_1790426146195.jpg',
+    image: heroProcessionImg,
     content: [
       'Celebrated across provinces: Bulacan, Pasig, Manila, Vigan, Cavite, and Cebu.',
       'Recognized by the National Commission for Culture and the Arts (NCCA) as intangible heritage.',
